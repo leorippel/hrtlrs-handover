@@ -30,5 +30,4 @@ Proteome sets (`primary_transcripts`) prepared for OrthoFinder orthology analysi
 whether this was a one-off run or a resource meant to be reused/extended across projects.
 
 ## `Rdata`
-⚠️ NEEDS CONFIRMATION — appears empty at the top level in the current tree; check contents
-directly before documenting.
+R code for Anno repo.
