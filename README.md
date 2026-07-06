@@ -1,4 +1,4 @@
-# hrtlrs — powerplant `/output` workspace handover
+# hrtlrs — powerplant  handover
 
 This repo describes the contents of my personal working directory on the `powerplant` HPC
 cluster (`/output/hrtlrs`), for reference by PFR colleagues after my departure.
@@ -23,7 +23,7 @@ There are two separate locations on `powerplant` covered here:
 | `/output` — Apr 2025 – Apr 2026 | [docs/04-2025_04-2026.md](docs/04-2025_04-2026.md) |
 | `/output` — shared/reference resources | [docs/shared-resources.md](docs/shared-resources.md) |
 | `/workspace` — Apr 2025 – Apr 2026 (**active, needs a successor**) | [docs/workspace-04_2025_04_2026.md](docs/workspace-04_2025_04_2026.md) |
-| `/workspace` — shared tools & root-level resources | [docs/workspace-shared-resources.md](docs/workspace-shared-resources.md) |
+
 
 ## Reading a project entry
 
@@ -33,11 +33,6 @@ Each project is listed with:
 - **What it is** — one or two lines on the analysis
 - **Status** — active, completed, archived, superseded
 - **Notes** — anything a successor should know (gotchas, where the "real" outputs are vs. test runs, etc.)
-
-Entries marked **`⚠️ NEEDS CONFIRMATION`** are my best guess from folder naming and context —
-please correct these before considering the doc final.
-
-## Not covered here
 
 Standard pipeline scaffolding (STAR genome indices, per-sample `fastp`/QC subfolders, `*_STARtmp`,
 etc.) isn't individually documented — it's implied by the pipeline described for each project.
